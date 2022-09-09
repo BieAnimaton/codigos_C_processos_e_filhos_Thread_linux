@@ -54,7 +54,7 @@ Ao executarmos este código, nos deparamos com um **erro**: o pai inicializa Imp
 ＼（〇_ｏ）／  
 
 Você percebeu que o filho não imprimiu sua segunda mensagem?! Isso acontece por que nos processos Threads, **quando o pai "morre", todos os seus filhos também "morrem"**, ou seja, o pai precisa ter um tempo de espera maior que o do filho para que este último possa imprimir todo seu conteúdo.
-## Criar função para que o filho execute, fazendo o pai aguardar o filho I.
+## Criar função para que o filho execute, fazendo o pai aguardar o filho.
 ```
 ...
 void* filho () {
