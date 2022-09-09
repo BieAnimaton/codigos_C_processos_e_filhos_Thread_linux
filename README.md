@@ -10,7 +10,7 @@ Códigos feitos em C para criar e manipular processos Threads e filhos Threas no
 | Criando filho(s) | `fork();` | `pthread_create()` |
 | Aguardando filho(s) ficar livre | `waitpid()` | `pthread_join()` |
 
-Para compilar: `cc progN.c -o progN **-lpthread**`  
+Para compilar: `cc progN.c -o progN -lpthread`  
 Para executar: `./progN`
 ## Comando para criar processo filho através do Gerenciador de Processos.
 ```
